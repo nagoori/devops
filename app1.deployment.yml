@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Deployment
+metadata: 
+  name: ingress-nginx
+  namespace: app1
+specs:
+  containers:
+  - name: nginx
+  - image: nginx:1.15.4 
