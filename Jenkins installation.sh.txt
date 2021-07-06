@@ -23,3 +23,5 @@ systemctl start jenkins
 systemctl enable jenkins 
 #check status
 systemctl status jenkins
+cd /opt
+yum install git -y
