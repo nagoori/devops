@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: deployment
+metadata:
+  name: mydeployment
+  namespace: test
+  labels:
+    name: mydeployment
+spec:
+  containers:
+  - name: mydeployment
+    image: nginx
